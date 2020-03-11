@@ -21,10 +21,16 @@ h5 {
 }
 
 
-.button {
+.hero-button {
+	background:#6dab85;
+	border-radius: 4px;
+	margin: 20px 0 0 0 ;
 
 }
 
+.hero-text{
+	width:36%;
+}
 
 
 /*******************************
@@ -32,17 +38,82 @@ h5 {
 *******************************/
 
 .hero {
+	background:#d8eeef;
+	height:324px;
 
+}
+
+.hero-title{
+	float:left;
+	width:50%;
+}
+
+
+.hero-graphic {
+	width:50%;
+	float:right;
+	
 }
 
 .page {
-
+	clear:both;
 }
 
 .footer {
+	height:50px;
+	background:#2d3132;
+}
+
+.grid-containersfd{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-item-image-container{
+	background:#2d3132;
+	padding:40px 40px 40px 95px;
+	border-top-left-radius:4px	;
+	border-top-right-radius:4px	
+}
+.grid-item-image{
+  background-image:url("images/card-header-image.png");
+  background-repeat:no-repeat;
+  height:113px;
+  ;
+}
+.grid-item{
+
+  background-color: #f1f1f1;
+  width: 28%;
+  height:375px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  border-radius: 4px;
 
 }
 
+.cta-item{
+	color:#bbbbbb;
+  width: 28%;
+  margin: 10px;
+  text-align: center;
+  font-size: 30px;
+
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cta-text{
+	padding:30px 0 0 40px;
+
+}
 
 /*******************************
          Responsive
